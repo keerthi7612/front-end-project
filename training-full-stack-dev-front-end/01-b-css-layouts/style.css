@@ -51,7 +51,7 @@ header {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  background-color: #be7b72;
+
   justify-content: space-between;
   flex-basis: 750px;
   flex-grow: 1px;
