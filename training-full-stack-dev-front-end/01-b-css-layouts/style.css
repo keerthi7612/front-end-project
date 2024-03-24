@@ -46,12 +46,12 @@ h1 {
 
 header {
   width: 750px;
-  height: 450px;
+
   padding: 6px 12px;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  background-color: #fdaf7b;
+  background-color: #be7b72;
   justify-content: space-between;
   flex-basis: 750px;
   flex-grow: 1px;
@@ -77,23 +77,55 @@ header {
 }
 .btn:hover {
   color: #401f71;
-  background-color: #be7b72;
+  background-color: #fdaf7b;
 }
 .pic {
   width: 300px;
   height: 400px;
   margin-right: 80px;
 }
+
 feedback {
   width: 750px;
-  margin-top: 70px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 6px 12px;
+  height: 40px;
+
   background-color: #fdaf7b;
 }
-.h3 {
+/*
+.about {
+  width: 750px;
   color: #401f71;
   font-size: 19px;
   font-style: sans-serif;
+  margin-left: 260px;
+  margin-right: auto;
 }
+.para-2 {
+  width: 400px;
+  margin-top: 0px;
+  margin-left: 260px;
+  margin-right: auto;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+  flex-grow: 1;
+  align-items: center;
+  /*
+  width: 750px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 36px 12px;
+  column-gap: 32px;
+  background-color: #be7b72;
+}
+.input,
+textarea {
+  border: 0;
+  background-color: #be7b72;
+  resize: none;
+  border: none;
+}
+*/
