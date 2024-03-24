@@ -51,7 +51,7 @@ header {
   margin: 0 auto;
   display: flex;
   align-items: center;
-
+  background-color: #fdaf7b;
   justify-content: space-between;
   flex-basis: 750px;
   flex-grow: 1px;
@@ -85,13 +85,13 @@ header {
   margin-right: 80px;
 }
 
+/*
 feedback {
   width: 750px;
   height: 40px;
   padding: 30px 750px;
   background-color: #fdaf7b;
 }
-/*
 .about {
   width: 750px;
   color: #401f71;
@@ -129,3 +129,42 @@ textarea {
   border: none;
 }
 */
+footer {
+  width: 750px;
+  height: 300px;
+  padding: 2px 18px;
+  background-color: #fdaf7b;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.contact {
+  color: #401f71;
+  font-size: 30px;
+  font-style: sans-serif;
+}
+.location {
+  color: #401f71;
+  font-size: 30px;
+  font-style: sans-serif;
+}
+.address {
+  width: 300px;
+}
+.follow {
+  width: 750px;
+  color: #401f71;
+  font-size: 30px;
+  font-style: sans-serif;
+}
+.follow-us {
+  width: 750px;
+  margin-right: 0px;
+}
+logo {
+  display: flex;
+}
+.face {
+  align-items: center;
+  justify-content: space-around;
+  justify-content: space-between;
+}
