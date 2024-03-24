@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    container {
+      display: flex;
+      background-color: grey;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 24px;
+    }
+    .box {
+      width: 100px;
+    }
+    .bx-red {
+      background: red;
+      align-self: stretch;
+      height: 50px;
+    }
+    .bx-yellow {
+      background: yellow;
+      align-self: flex-end;
+      height: 50px;
+    }
+    .bx-green {
+      background: green;
+      height: 50px;
+    }
+    .bx-blue {
+      background: blue;
+      align-self: stretch;
+      height: 10px;
+    }
+    .bx-black {
+      background: black;
+      align-self: self-end;
+      height: 50px;
+    }
+  </style>
+  <body>
+    <container>
+      <div class="box bx-red"></div>
+      <div class="box bx-yellow"></div>
+      <div class="box bx-green"></div>
+      <div class="box bx-blue"></div>
+      <div class="box bx-black"></div>
+    </container>
+  </body>
+</html>

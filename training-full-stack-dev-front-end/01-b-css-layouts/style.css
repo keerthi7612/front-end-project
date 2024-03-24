@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 6px 12px;
+  box-sizing: content-box;
+}
+html {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+}
+
+nav {
+  width: 750px;
+  background-color: #fdaf7b;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 12px;
+  flex-basis: 750px;
+  flex-grow: 1px;
+}
+
+/* LVHA_content*/
+
+a:link,
+a:visited {
+  color: #401f71;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+h1 {
+  color: #401f71;
+}
+
+.act-btn {
+  color: #401f71;
+  background-color: #be7b72;
+}
+.act-btn:hover {
+  color: #be7b72;
+  background-color: #401f71;
+}
+
+header {
+  width: 750px;
+  height: 450px;
+  padding: 6px 12px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background-color: #fdaf7b;
+  justify-content: space-between;
+  flex-basis: 750px;
+  flex-grow: 1px;
+}
+.para {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  color: #401f71;
+  font-size: 50px;
+  font-style: sans-serif;
+}
+.content-para {
+  width: 300px;
+  margin-top: 20px;
+  color: #401f71;
+  font-size: 19px;
+  font-style: sans-serif;
+}
+.btn {
+  background-color: #401f71;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.btn:hover {
+  color: #401f71;
+  background-color: #be7b72;
+}
+.pic {
+  width: 300px;
+  height: 400px;
+  margin-right: 80px;
+}
+feedback {
+  width: 750px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6px 12px;
+  background-color: #fdaf7b;
+}
+.h3 {
+  color: #401f71;
+  font-size: 19px;
+  font-style: sans-serif;
+}
