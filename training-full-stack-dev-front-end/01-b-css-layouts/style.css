@@ -8,6 +8,8 @@ html {
   font-family: "Inter", sans-serif;
 }
 
+/*nav*/
+
 nav {
   width: 750px;
   background-color: #fdaf7b;
@@ -44,14 +46,14 @@ h1 {
   background-color: #401f71;
 }
 
+/*header*/
+
 header {
   width: 750px;
-
   padding: 6px 12px;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  background-color: #fdaf7b;
   justify-content: space-between;
   flex-basis: 750px;
   flex-grow: 1px;
@@ -66,12 +68,12 @@ header {
 .content-para {
   width: 300px;
   margin-top: 20px;
-  color: #401f71;
+  color: #824d74;
   font-size: 19px;
   font-style: sans-serif;
 }
 .btn {
-  background-color: #401f71;
+  background-color: #be7b72;
   margin-top: 40px;
   margin-left: 10px;
 }
@@ -85,86 +87,100 @@ header {
   margin-right: 80px;
 }
 
-/*
-feedback {
-  width: 750px;
-  height: 40px;
-  padding: 30px 750px;
-  background-color: #fdaf7b;
-}
-.about {
-  width: 750px;
-  color: #401f71;
-  font-size: 19px;
-  font-style: sans-serif;
-  margin-left: 260px;
-  margin-right: auto;
-}
-.para-2 {
-  width: 400px;
-  margin-top: 0px;
-  margin-left: 260px;
-  margin-right: auto;
-}
-.form {
-  display: flex;
-  flex-direction: column;
-  row-gap: 18px;
-  flex-grow: 1;
-  align-items: center;
-  /*
-  width: 750px;
-  margin-top: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 36px 12px;
-  column-gap: 32px;
-  background-color: #be7b72;
-}
-.input,
-textarea {
-  border: 0;
-  background-color: #be7b72;
-  resize: none;
-  border: none;
-}
-*/
-footer {
+/* features */
+
+features {
   width: 750px;
   height: 300px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+}
+.feat h7,
+h8,
+h9 {
+  font-style: sans-serif;
+  font-size: 30px;
+  width: 400px;
+  color: #401f71;
+}
+.icon-menu {
+  width: 30px;
+  height: 30px;
+}
+.p1,
+.p2,
+.p3 {
+  color: #824d74;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+/* feedback*/
+
+feedback {
+  width: 750px;
+  height: 250px;
+  padding: 30px 12px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+input,
+textarea {
+  background-color: #be7b72;
+  resize: none;
+}
+
+input[type="submit"] {
+  text-transform: uppercase;
+  background-color: #401f71;
+}
+.about {
+  color: #824d74;
+  margin-left: 50px;
+  font-size: 19px;
+  margin-right: auto;
+}
+.about h3 {
+  color: #401f71;
+  font-style: sans-serif;
+  font-size: 30px;
+  width: 400px;
+}
+
+/* footer content*/
+
+footer {
+  width: 750px;
   padding: 2px 18px;
-  background-color: #fdaf7b;
   margin: 0 auto;
   margin-top: 20px;
 }
-.contact {
+.foot h4,
+h5,
+h6 {
   color: #401f71;
   font-size: 30px;
   font-style: sans-serif;
 }
-.location {
-  color: #401f71;
-  font-size: 30px;
-  font-style: sans-serif;
+.foot p {
+  color: #824d74;
+  font-size: 19px;
 }
-.address {
-  width: 300px;
-}
-.follow {
-  width: 750px;
-  color: #401f71;
-  font-size: 30px;
-  font-style: sans-serif;
-}
-.follow-us {
-  width: 750px;
-  margin-right: 0px;
-}
-logo {
-  display: flex;
-}
-.face {
-  align-items: center;
-  justify-content: space-around;
-  justify-content: space-between;
+
+.icon-foot {
+  width: 40px;
+  height: 40px;
 }
